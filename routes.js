@@ -11,7 +11,6 @@ import logger from "./utils/logger.js";
 
 router.get('/start', start.createView);
 router.get('/dashboard', dashboard.createView);
-router.get('/error', (request, response) => response.status(404).end('Page not found.'));
 router.get('/about', about.createView);
 
 export default router;
