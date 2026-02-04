@@ -9,7 +9,7 @@ import about from './controllers/about.js';
 import logger from "./utils/logger.js";
 
 
-router.get('/start', start.createView);
+router.get('/', start.createView);
 router.get('/dashboard', dashboard.createView);
 router.get('/about', about.createView);
 
