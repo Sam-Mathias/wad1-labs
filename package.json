@@ -16,6 +16,7 @@
   "description": "A little playlist maker",
   "dependencies": {
     "express": "^5.2.1",
+    "lowdb": "^7.0.1",
     "winston": "^3.19.0"
   },
   "devDependencies": {
