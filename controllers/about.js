@@ -8,10 +8,10 @@ const about = {
     logger.info("About page loading!");
     const viewData = {
       title: "About the Playlist app!",
-      employee: empStore.getEmpInfo()
+      employees: empStore.getEmpInfo()
     }; 
 
-    logger.info(viewData.employee)
+    logger.info(viewData.employees)
     response.render('about', viewData)
   },
 };
