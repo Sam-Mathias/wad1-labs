@@ -25,3 +25,24 @@ body {
 table {
   margin:auto
 }
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-form input {
+  padding: .5em .8em;
+  border: 2px solid #7CB9E8;
+  border-radius: 6px;
+  width: 200px;
+}
+

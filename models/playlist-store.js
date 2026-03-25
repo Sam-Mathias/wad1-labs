@@ -31,6 +31,11 @@ const playlistStore = {
   editSong(id, songId, updatedSong) {
     this.store.editItem(this.collection, id, songId, this.array, updatedSong);
   },
+  searchPlaylist(search) {
+    return this.store.findBy(
+      this.collection,
+      (playlist => playlist.title.toLowerCase().includes(search.toLowerCase())))
+  }
 };
 
 export default playlistStore;
