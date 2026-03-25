@@ -1,0 +1,118 @@
+{{> menu id="stats"}}
+
+<section class="ui center aligned middle aligned segment">
+
+  <h2>Playlist App Statistics</h2>
+
+  <h3 class="ui header">
+    App Statistics
+  </h3>
+  <p>
+    The playlist app now contains:
+  </p>
+
+  {{#with stats}}
+  <div class="ui center aligned grid">
+
+    <!-- ROW 1: Playlists / Songs / Average -->
+    <div class="ui sixteen wide column">
+      <div class="ui centered three statistics">
+
+        <div class="ui statistic">
+          <div class="value">
+            <i class="microphone icon"></i>
+          </div>
+          <div class="label">
+            {{displayNumPlaylists}} playlists
+          </div>
+        </div>
+
+        <div class="ui red statistic">
+          <div class="value">
+            <i class="music icon"></i>
+          </div>
+          <div class="label">
+            {{displayNumSongs}} songs
+          </div>
+        </div>
+
+        <div class="ui blue statistic">
+          <div class="value">
+            <i class="balance scale icon"></i>
+          </div>
+          <div class="label">
+            Average songs per <br> playlist: {{displayAverage}}
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ROW 2: Highest Rating / Average Rating -->
+    <div class="ui sixteen wide column">
+      <div class="ui centered two statistics">
+
+        <div class="ui yellow statistic">
+          <div class="value">
+            <i class="star icon"></i>
+          </div>
+          <div class="label">
+            Highest Rated playlists: {{highest}} stars
+            <table>
+              {{#each displayFav}}
+              <tr>
+                <td>{{this}}</td>
+              </tr>
+              {{/each}}
+            </table>
+          </div>
+        </div>
+
+        <div class="ui green statistic">
+          <div class="value">
+            <i class="dot circle outline icon"></i>
+          </div>
+          <div class="label">
+            Average Rating: {{displayAvgRating}}
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ROW 3: Most Songs / Playlists with Most Songs -->
+    <div class="ui sixteen wide column">
+      <div class="ui centered two statistics">
+
+        <div class="ui purple statistic">
+          <div class="value">
+            <i class="list ol icon"></i>
+          </div>
+          <div class="label">
+            Most Songs in a Playlist: {{maxSongs}}
+          </div>
+        </div>
+
+        <div class="ui teal statistic">
+          <div class="value">
+            <i class="folder open icon"></i>
+          </div>
+          <div class="label">
+            Playlist(s) with Most Songs:
+            <table>
+              {{#each largestPlaylists}}
+              <tr>
+                <td>{{title}} ({{songs.length}} songs)</td>
+              </tr>
+              {{/each}}
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  {{/with}}
+
+</section>
