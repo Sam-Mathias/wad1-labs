@@ -1,67 +1,39 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "rating": 5,
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
-        }
-      ]
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "351f17c8-de8d-4a5a-b328-2e0de5b1fbbb",
+      "title": "marge's playlist",
+      "rating": 1,
+      "songs": [],
+      "date": "2026-04-15T15:10:01.346Z"
     },
     {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 4,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
-        }
-      ]
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "1bd1dc37-fdcd-4b62-8007-976caae9c4e7",
+      "title": "homer's playlist",
+      "rating": 1,
+      "songs": [],
+      "date": "2026-04-15T15:10:26.638Z"
     },
     {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
-      "rating": 2,
-      "songs": []
-    },
-    {
-      "id": "82eeefd3-ba8c-4dc2-bff6-a224f9ad54c6",
-      "title": "Beethoven Works",
-      "rating": 4,
-      "songs": []
-    },
-    {
-      "id": "402693d0-a4e0-4f1e-a714-4432e0565757",
-      "title": "beethoven symphonies",
+      "userid": "0f277f25-79af-4949-82fb-11740c035e7c",
+      "id": "5e85cd3c-aae2-4f2a-96eb-9536993e85cb",
+      "title": "bart's playlist",
       "rating": 3,
-      "date": "2026-03-25T15:26:42.603Z",
-      "songs": []
+      "songs": [
+        {
+          "id": "48ac5889-7e40-439c-abd9-db4787b311e6",
+          "title": "bart's bars",
+          "artist": "bart"
+        },
+        {
+          "id": "e3578e39-2822-4b35-ab26-f13d03e73fad",
+          "title": "test",
+          "artist": "bart"
+        }
+      ],
+      "date": "2026-04-15T15:13:43.473Z"
     }
   ]
 }

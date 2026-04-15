@@ -16,6 +16,7 @@
   "description": "A little playlist maker",
   "dependencies": {
     "body-parser": "^2.2.2",
+    "cookie-parser": "^1.4.7",
     "express": "^5.1.0",
     "express-handlebars": "^8.0.6",
     "lowdb": "^7.0.1",
