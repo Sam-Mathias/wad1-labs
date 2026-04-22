@@ -9,14 +9,6 @@
       "date": "2026-04-15T15:10:01.346Z"
     },
     {
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "id": "1bd1dc37-fdcd-4b62-8007-976caae9c4e7",
-      "title": "homer's playlist",
-      "rating": 1,
-      "songs": [],
-      "date": "2026-04-15T15:10:26.638Z"
-    },
-    {
       "userid": "0f277f25-79af-4949-82fb-11740c035e7c",
       "id": "5e85cd3c-aae2-4f2a-96eb-9536993e85cb",
       "title": "bart's playlist",
@@ -34,6 +26,18 @@
         }
       ],
       "date": "2026-04-15T15:13:43.473Z"
+    },
+    {
+      "id": "a662054a-beec-4b8d-b93b-dff02ec6c851",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "test",
+      "rating": 3,
+      "songs": [],
+      "date": "2026-04-22T15:30:46.141Z",
+      "picture": {
+        "url": "http://res.cloudinary.com/dczfqzcff/image/upload/v1776871847/qittespqlraic2kcudxe.jpg",
+        "public_id": "qittespqlraic2kcudxe"
+      }
     }
   ]
 }

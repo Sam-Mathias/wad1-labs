@@ -34,6 +34,13 @@
       "email": "lisa@simpson.com",
       "password": "secret",
       "id": "877fcf15-d274-485e-99d4-897555d10040"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mary.lyng@setu.ie",
+      "password": "Trustno1",
+      "id": "fa77feb7-b4c7-4df5-95a4-c9f31dfe63e3"
     }
   ]
 }
