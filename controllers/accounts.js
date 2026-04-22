@@ -39,14 +39,21 @@ const accounts = {
   
  //register function to render the registration page for adding a new user
   register(request, response) {
-    const user = request.body;
-    user.id = uuidv4();
-    userStore.addUser(user);
+  const user = request.body;
+  user.id = uuidv4();
 
-    response.cookie('playlist', user.email);
-    logger.info('registering' + user.email);
-    response.redirect('/start');
-  },
+  // Read uploaded file (from signup.hbs)
+  const picture = request.files ? request.files.picture : null;
+
+  // Use the new Cloudinary-enabled addUser()
+  userStore.addUser(user, picture, (newUser) => {
+    logger.info("registering " + newUser.email);
+
+    // Log the user in immediately
+    response.cookie("playlist", newUser.email);
+    response.redirect("/start");
+  });
+},
   
   //authenticate function to check user credentials and either render the login page again or the start page.
   authenticate(request, response) {

@@ -54,3 +54,9 @@ table {
   text-transform:capitalize;
 }
 
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}

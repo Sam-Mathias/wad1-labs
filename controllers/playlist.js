@@ -8,17 +8,18 @@ import accounts from './accounts.js';
 
 const playlist = {
   createView(request, response) {
-    const playlistId = request.params.id;
-    const loggedInUser = accounts.getCurrentUser(request);
-    logger.debug('Playlist id = ' + playlistId);
-    
-    const viewData = {
-      title: 'Playlist',
-      singlePlaylist: playlistStore.getPlaylist(playlistId),
-      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
-    };
+  const playlistId = request.params.id;
+  const loggedInUser = accounts.getCurrentUser(request);
+  logger.debug('Playlist id = ' + playlistId);
+  
+  const viewData = {
+    title: 'Playlist',
+    singlePlaylist: playlistStore.getPlaylist(playlistId),
+    fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+    picture: loggedInUser.picture,  
+  };
 
-    response.render('playlist', viewData);
+  response.render('playlist', viewData);
 },
 
 

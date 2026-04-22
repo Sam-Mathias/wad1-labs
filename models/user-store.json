@@ -41,6 +41,27 @@
       "email": "mary.lyng@setu.ie",
       "password": "Trustno1",
       "id": "fa77feb7-b4c7-4df5-95a4-c9f31dfe63e3"
+    },
+    {
+      "firstName": "Sam",
+      "lastName": "Mathias",
+      "email": "sam@mathias.com",
+      "password": "mammy",
+      "id": "0e5bbdc0-7541-489c-91eb-079f98763d65"
+    },
+    {
+      "firstName": "s",
+      "lastName": "M",
+      "email": "s@m.com",
+      "password": "sm",
+      "id": "4b9ddcfb-e585-4ae4-9699-d57d75144f02"
+    },
+    {
+      "firstName": "s",
+      "lastName": "M",
+      "email": "s@m.com",
+      "password": "sm",
+      "id": "057f0bfc-7f27-44fb-9433-e435d750cbc4"
     }
   ]
 }

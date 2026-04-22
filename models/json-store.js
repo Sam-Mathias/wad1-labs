@@ -10,9 +10,9 @@ import fs from "fs/promises";
 dotenv.config({ quiet: true });
 
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
+  cloud_name: 'dczfqzcff',
+  api_key: '816526861485823',
+  api_secret: '2D7tT0KjM1jminX6Szzr2UIxfs'
 });
 
 class JsonStore {

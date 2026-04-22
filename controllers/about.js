@@ -14,6 +14,7 @@ const about = {
         title: 'About the Playlist App',
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
         employees: empStore.getEmpInfo(),
+        picture: loggedInUser.picture,
       };
       response.render('about', viewData);
     }
